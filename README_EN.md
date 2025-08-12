@@ -5,7 +5,7 @@
 </div>
 
 # Haram Block App 🛡️
-**Haram Block** is an innovative mobile application designed to protect users from viewing inappropriate images (those containing women's faces) by applying a blur or block effect. Inspired by the **Haram Blur** extension, this app leverages advanced AI techniques to deliver a seamless and efficient experience on smartphones.
+**Haram Block** is an innovative mobile application designed to protect users from viewing inappropriate images (those containing women's faces) by applying block effect. Inspired by the **Haram Blur** extension, this app leverages advanced AI techniques to deliver a seamless and efficient experience on smartphones.
 
 The app aims to create a safe browsing environment while maintaining high performance and low battery consumption. It utilizes cutting-edge technologies such as face detection and gender classification, combined with an intuitive user interface.
 
@@ -25,7 +25,7 @@ To install **Haram Block** as a regular user, follow these steps:
 3. If prompted, enable installation from unknown sources in your device’s security settings.
 4. Complete the installation process and open the app to configure required permissions (e.g., Accessibility Service).
 
-> **Note**: Ensure your device runs Android 7.0 or higher for compatibility.
+> **Note**: Ensure your device runs Android 5.0 or higher for compatibility.
 
 ---
 
@@ -50,11 +50,11 @@ cd HaramBlock
      ```
 
 4. Ensure the following prerequisites are installed:
-   - **JDK 17** (Java Development Kit).
+   - **JDK 21** (Java Development Kit).
    - **Android SDK** (available through Android Studio).
    - Build tools like Gradle.
 
-> **Note**: The setup process may take time if JDK 17 or Android SDK is not already installed. Ensure these are set up before running the script.
+> **Note**: The setup process may take time if JAVA 21 or Android SDK is not already installed. Ensure these are set up before running the script.
 
 ---
 
@@ -88,17 +88,17 @@ The **Media Projection** API allows the app to capture screenshots securely. Usi
 - **NCNN**: A lightweight, high-performance framework optimized for ARM processors, used to run AI models efficiently on mobile devices.
 
 ### 4. **Image Preprocessing**
-Images are prepared for analysis by resizing, enhancing quality, and removing unnecessary noise, ensuring compatibility with AI models.
+Images are prepared for analysis by resizing, dehancing quality, ensuring compatibility with AI models.
 
 ### 5. **Face Detection**
 The app employs the **Slim-128** model (open-source) for face detection. This lightweight model (approximately 1 MB) processes images in **5-12 milliseconds**.
 
-> **Model Link**: [Slim-128 Face Detection](https://github.com/ultralight-face-detection).
+> **Model Link**: [Slim-128 Face Detection](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB).
 
 ### 6. **Gender Classification**
 A custom **PyTorch** model, converted to **NCNN**, is used to classify the gender of detected faces. It is highly optimized, processing each face in **0.3-1.5 milliseconds**.
 
-> **AI Models Link**: [AI Models](https://example.com/ai).
+> **AI Models Link**: [AI Models](https://github.com/mostafa0658M/HaramBlock/tree/main/app/src/main/assets).
 
 ### 7. **Block Mechanism**
 Upon detecting an inappropriate image, the app draws a black rectangle over it instead of applying a blur effect to minimize resource usage, ensuring smooth performance.
