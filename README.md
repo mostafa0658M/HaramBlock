@@ -2,9 +2,8 @@
 
 # تطبيق Haram Block 🛡️
 
-![Haram Block Icon](app/src/main/res/drawable/icon.png)
 <div align="center">
-  <img src="app/src/main/res/drawable/icon.png" alt="Haram Block Icon" width="100">
+  <img src="icon.png" alt="Haram Block Icon" width="200">
 </div>
 
 ## مقدمة
