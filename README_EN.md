@@ -1,4 +1,4 @@
-🌐 [العربية](/README.md) | [English](#english)
+🌐 [العربية](/) | English
 
 Haram Block is an Android application that blurs or completely blocks inappropriate images (such as those containing women) — similar to the Haram Blur browser extension — but for the entire device, not just the browser.
 
