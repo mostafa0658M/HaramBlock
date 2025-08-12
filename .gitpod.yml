@@ -1,0 +1,7 @@
+tasks:
+  - init: |
+      sdk install java 17.0.12-zulu
+      export JAVA_HOME=/media/mostafa/E088E8B088E885FE/Program Files/Java/jdk-17
+      export ANDROID_HOME=/home/mostafa/android/
+      export PATH=$ANDROID_HOME/cmdline-tools/bin:$PATH
+      export PATH=$ANDROID_HOME/platform-tools:$PATH

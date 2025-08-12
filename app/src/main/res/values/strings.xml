@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Haram Block</string>
+    <string name="accessibility_service_description">This service tracks ImageView visibility across all apps</string>
+</resources>
