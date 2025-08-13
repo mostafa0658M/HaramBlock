@@ -20,7 +20,7 @@ The app aims to create a safe browsing environment while maintaining high perfor
 
 ## How to Install the App (as a Regular User)
 To install **Haram Block** as a regular user, follow these steps:
-1. Download the APK file from [this link](https://example.com/haram-block-apk).
+1. Download the APK file from [this link](https://raw.githubusercontent.com/mostafa0658M/HaramBlock/refs/heads/main/haramblock.apk).
 2. Open the APK file on your Android device.
 3. If prompted, enable installation from unknown sources in your device’s security settings.
 4. Complete the installation process and open the app to configure required permissions (e.g., Accessibility Service).
@@ -42,16 +42,17 @@ cd HaramBlock
 3. Execute the setup script for your operating system:
    - **For Linux/macOS**:
      ```bash
+     chmod +x test.sh
      ./setup.sh
      ```
-   - **For Windows**:
+   - **For Windows** (Open as adminstrator):
      ```bash
      .\setup.bat
      ```
 
 4. Ensure the following prerequisites are installed:
    - **JDK 21** (Java Development Kit).
-   - **Android SDK** (available through Android Studio).
+   - **Android SDK** 
    - Build tools like Gradle.
 
 > **Note**: The setup process may take time if JAVA 21 or Android SDK is not already installed. Ensure these are set up before running the script.

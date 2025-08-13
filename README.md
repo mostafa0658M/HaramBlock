@@ -20,7 +20,7 @@
 
 ## كيفية تثبيت التطبيق (كمستخدم عادي)
 لتثبيت تطبيق **Haram Block** كمستخدم عادي، اتبع الخطوات التالية:
-1. قم بتنزيل ملف الـ APK من [هذا الرابط](https://example.com/haram-block-apk).
+1. قم بتنزيل ملف الـ APK من [هذا الرابط](https://raw.githubusercontent.com/mostafa0658M/HaramBlock/refs/heads/main/haramblock.apk).
 2. افتح ملف الـ APK على جهازك الأندرويد.
 3. قم بالموافقة على التثبيت من مصادر غير معروفة إذا لزم الأمر (يمكن تفعيل هذا الخيار من إعدادات الأمان).
 4. انتظر حتى يكتمل التثبيت، ثم افتح التطبيق واتبع التعليمات لتفعيل الخدمات المطلوبة (مثل Accessibility Service).
@@ -42,16 +42,17 @@ cd HaramBlock
 3. قم بتشغيل سكربت الإعداد المناسب لنظام التشغيل الخاص بك:
    - **لنظام Linux/macOS**:
      ```bash
+     chmod +x test.sh
      ./setup.sh
      ```
-   - **لنظام Windows**:
+   - **لنظام Windows** (Open as adminstrator):
      ```bash
      .\setup.bat
      ```
 
 4. تأكد من تثبيت المتطلبات الأساسية:
    - **JDK 21** (Java Development Kit).
-   - **Android SDK** (يمكن تثبيته عبر Android Studio).
+   - **Android SDK** 
    - أدوات بناء مثل Gradle.
 
 > **ملاحظة**: عملية الإعداد قد تستغرق وقتًا إذا لم يكن لديك JAVA 21 أو Android SDK مثبتين مسبقًا. تأكد من تثبيتهما قبل تشغيل السكربت.
