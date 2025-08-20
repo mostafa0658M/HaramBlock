@@ -42,7 +42,7 @@ cd HaramBlock
 3. قم بتشغيل سكربت الإعداد المناسب لنظام التشغيل الخاص بك:
    - **لنظام Linux/macOS**:
      ```bash
-     chmod +x test.sh
+     chmod +x setup.sh
      ./setup.sh
      ```
    - **لنظام Windows** (Open as adminstrator):
